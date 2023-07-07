@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Figurinhas - Copa do Mundo Feminina</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        h1 {
+            margin-top: 50px;
+        }
+        .logo {
+            margin-top: 50px;
+        }
+        .flags {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .flag {
+            margin: 10px;
+            cursor: pointer;
+        }
+        .p {
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Copa do Mundo Feminina 2023</h1>
+    <img src="https://www.ogol.com.br/img/logos/edicoes/145950_imgbank_.png"  class="logo" alt="Logo da Copa do Mundo">
+    <p>Grupo A</p>
+    <p>Noruega, Suiça, Nova Zelândia, Filipinas</p>
+    <div class="flags">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/AFfOJLjl-YDDmn15H.png" alt="Bandeira da Noruega"> 
+        <img class="flag" src="https://static.flashscore.com/res/image/data/EXjxQ5yS-YDDmn15H.png" alt="Bandeira da Suíça"> 
+        <img class="flag" src="https://static.flashscore.com/res/image/data/jiAxmOFG-EwC2WVw6.png" alt="Bandeira da Nova Zelândia"> 
+        <img class="flag" src="https://static.flashscore.com/res/image/data/C8epNzg5-dj9tKYuM.png" alt="Bandeira da Filipinas">
+    </div>
+    <p>Grupo B</p>
+    <p>Canadá, Austrália, Nigéria, Irlanda</p>
+    <div class="flags">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/xvf91QYg-CWSbHkma.png" alt="Bandeira da Canadá">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/bNBlJwil-8STS1xJ8.png" alt="Bandeira da Austrália">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/lMFijDg5-8ICaYfyc.png" alt="Bandeira da Nigéria">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/tOU0BiGG-d69ZEjuL.png" alt="Bandeira da Irlanda">
+    </div>
+
+    <p>Grupo C</p>
+    <p>Japão, Espanha, Costa Rica, Zâmbia</p>
+    <div class="flags">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/QRlYWUhl-E1YhvyqD.png" alt="Bandeira do Japão">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/l27lrgeM-jXzj6iAf.png" alt="Bandeira da Espanha">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/nTS6n7Da-KfXjzrxU.png" alt="Bandeira da Costa Rica">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/61tI6cHG-fomCGwjD.png" alt="Bandeira da Zâmbia">
+    </div>
+
+    <p>Grupo D</p>
+    <p>China, Dinamarca, Inglaterra, Haiti</p>
+    <div class="flags">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/APD7i7dM-nNtI3CTL.png" alt="Bandeira do China">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/nHFMNnGG-bkIXkq6h.png" alt="Bandeira da Dinamarca">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/SlShSBXg-j1Ih2sWe.png" alt="Bandeira da Inglaterra">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/Ea84Hfg5-hrIg4DfD.png" alt="Bandeira da Haiti">
+    </div>
+
+    <p>Grupo E</p>
+    <p>Estados Unidos, Portugal, Holanda, Vietnã</p>
+    <div class="flags">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/zoIpbvHG-W6UqXKEA.png" alt="Bandeira do Estados Unidos">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/K0WTxAGG-CrPl0Jrc.png" alt="Bandeira do Portugal">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/r1bLT4g5-SrXKwAi9.png" alt="Bandeira da Holanda">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png" alt="Bandeira do Vietnã">
+    </div>
+
+    <p>Grupo F</p>
+    <p>Brasil, França, Panamá, Jamaica</p>
+    <div class="flags">
+        <a href="brasil.html"><img class="flag" src="https://static.flashscore.com/res/image/data/CYmjfUeM-vBKZiE2j.png" alt="Bandeira do Brasil" onclick="mostrarJogadores('pais1')"></a>
+        <a href="franca.html"><img class="flag" src="https://static.flashscore.com/res/image/data/Ya0aYaWg-rcthslVl.png" alt="Bandeira da França" onclick="mostrarJogadores('pais2')"></a>
+        <img class="flag" src="https://static.flashscore.com/res/image/data/fmckU3jl-bFBUslZ1.png" alt="Bandeira do Panamá">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/2R3oy4fM-dnaC6XB2.png" alt="Bandeira da Jamaica">
+    </div>
+
+    <p>Grupo G</p>
+    <p>Suécia, Itália, Argentina, África do Sul</p>
+    <div class="flags">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/vXTJnUkl-xj87XIpQ.png" alt="Bandeira da Suécia">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/h6v1tOAr-xCsenx2O.png" alt="Bandeira da Itália">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/ruNSBRhl-Q1VGmKS1.png" alt="Bandeira da Argentina">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/OSmdpjFG-vZOiu3ls.png" alt="Bandeira da África do Sul">
+    </div>
+
+    <p>Grupo H</p>
+    <p>Alemanha, Coréia do Sul, Colômbia, Marrocos</p>
+    <div class="flags">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/AHepqBWg-jwMhrJiF.png" alt="Bandeira da Alemanha">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/W2K5SGfM-4dnMHMVr.png" alt="Bandeira da Coréia do Sul">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/04s7uChl-C6kVdO5F.png" alt="Bandeira da Colômbia">
+        <img class="flag" src="https://static.flashscore.com/res/image/data/Ui3qjkg5-CEPH9Bbd.png" alt="Bandeira do Marrocos">
+    </div>
+
+
+</body>
+</html>
